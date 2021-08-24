@@ -1,6 +1,6 @@
 # Jupyter Notebook Starter
 
-A starter project for running jupyter notebooks in a container with vscode. Modified from https://github.com/Microsoft/vscode-remote-try-python.
+A starter project for running jupyter notebooks in a container or virtual environment with vscode. Modified from https://github.com/Microsoft/vscode-remote-try-python.
 
 ## Requirements
 1. VS Code
@@ -8,6 +8,18 @@ A starter project for running jupyter notebooks in a container with vscode. Modi
 3. [Remote Development vscode extension pack](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
 ## Usage
+
+### virtual environment
+
+We use `make` for this.
+
+```
+make venv
+make clean
+```
+
+### container
+
 1. Clone the project
 2. Open in vscode
 3. Open the project in container
