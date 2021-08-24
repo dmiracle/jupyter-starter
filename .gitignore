@@ -335,3 +335,5 @@ ASALocalRun/
 
 .vscode
 .ipynb_checkpoints
+
+venv
