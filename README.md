@@ -36,6 +36,6 @@ git push -u origin main
 
 ## Serve a Jupyter Notebook
 ```
-jupyter notebook --ip=0.0.0.0 --port=9099 --no-browser
+python -m notebook --ip=0.0.0.0 --port=9099 --no-browser
 ```
 Navigate to `localhost:9099` to find your notebook.
